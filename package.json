@@ -1,0 +1,19 @@
+{
+  "name": "meta-extractor",
+  "version": "1.0.0",
+  "description": "extract title and description meta data from urls",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pherepaphe/meta-extractor.git"
+  },
+  "author": "Pherepaphe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pherepaphe/meta-extractor/issues"
+  },
+  "homepage": "https://github.com/Pherepaphe/meta-extractor#readme"
+}
