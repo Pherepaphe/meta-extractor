@@ -7,9 +7,10 @@ This project will prompt you from a node server to enter a url and output the me
  - Run 'cd extract-n-read' 
  - Run `npm install`
  
- ### Execution
+ ###Execution
  - Run 'node index.js'
- - At the prompt, enter in the URL *Note*  If you wish to bypass the prompt, you can include the url in the command. Example: node index.js http://www.google.com
+ - At the prompt, enter in the URL 
+ - *Pending/WIP* - If you wish to bypass the prompt, you can include the url in the run command. Example: node index.js http://www.google.com
   
 
 ### Tech Used
