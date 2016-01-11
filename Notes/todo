@@ -1,0 +1,5 @@
+#meta-extractor To Do List:
+1. Clean up output to only display URL entered, Title, and Description (remove html-meta and use cheerio)
+2. Update to allow prompt bypass
+3. Allow for multiple urls to be entered (both via command and via prompt-max 20 if possible, else 10)
+4. Create an output file of the results Url, title, description
