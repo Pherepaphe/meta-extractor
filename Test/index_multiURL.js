@@ -2,11 +2,15 @@ var cheerio = require("cheerio");
 var request = require("request");
 var prompt  = require("prompt");
     colors  = require('colors');
-var scrape  = require('html-metadata');    
+var scrape  = require('html-metadata');  
+var scrape  = require('scrape')  
 //    optimist = require('optimist')
 
 //     set the overrides to skip the prompt - In Progress
 // prompt.override = optimist.argv
+
+/*multi url input*/
+// var urls = [...];
 
   /*prompt schema*/
 var schema = {
@@ -18,6 +22,7 @@ var schema = {
   }
 };
  
+
   //Start the Prompt//
 prompt.start();
 
@@ -31,21 +36,11 @@ var options = {};
     /*set options */
     options.url = result.url;
 
-    /*get url from user console response */
     scrape(options);
-
-    /**
- * Global exportable list of scraping promises with string keys
- * @type {Object}
- */
-  exports.metadataFunctions = index.metadataFunctions;
 
     /*use html-metadata to extract the desired information about the url*/
   scrape(options.url, function(error, metadata){
   console.log(metadata);
-  
-
-
   });
 });
 
