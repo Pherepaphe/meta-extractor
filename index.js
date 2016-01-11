@@ -34,18 +34,9 @@ var options = {};
     /*get url from user console response */
     scrape(options);
 
-    /**
- * Global exportable list of scraping promises with string keys
- * @type {Object}
- */
-  exports.metadataFunctions = index.metadataFunctions;
-
     /*use html-metadata to extract the desired information about the url*/
   scrape(options.url, function(error, metadata){
   console.log(metadata);
-  
-
-
   });
 });
 
