@@ -1,19 +1,24 @@
 {
   "name": "meta-extractor",
   "version": "1.0.0",
-  "description": "extract title and description meta data from urls",
+  "description": "extract meta data from urls",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "start": "node index.js"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Pherepaphe/meta-extractor.git"
+  "type": "git",
+  "url": "git+https://github.com/Pherepaphe/meta-extractor.git"
   },
+
   "author": "Pherepaphe",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Pherepaphe/meta-extractor/issues"
-  },
-  "homepage": "https://github.com/Pherepaphe/meta-extractor#readme"
+  "dependencies": {
+    "cheerio": "^0.19.0",
+    "colors": "^1.1.2",
+    "html-metadata": "^1.4.0",
+    "optimist": "^0.6.1",
+    "prompt": "^0.2.14",
+    "request": "^2.67.0",
+  }
 }

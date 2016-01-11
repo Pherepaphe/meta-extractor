@@ -1,17 +1,19 @@
 #meta-extractor
 
-This project will prompt you from a node server to enter a url and output the title and description meta tag information.
+This project will prompt you from a node server to enter a url and output the meta tag information.
 
 ### Setup
-Clone the repo `git clone https://github.com/Pherepaphe/meta-extractor.git`
- - Run 'cd meta-extractor' 
+ - Clone the repo `git clone https://github.com/Pherepaphe/extract-n-read.git`
+ - Run 'cd extract-n-read' 
  - Run `npm install`
+ 
+ ### Execution
  - Run 'node index.js'
- - At the  prompt, enter in the URL you are wanting to retrieve the meta tag information for
- - 
-
+ - At the prompt, enter in the URL *Note*  If you wish to bypass the prompt, you can include the url in the command. Example: node index.js http://www.google.com
+  
 
 ### Tech Used
-- [Cheerio](https://github.com/cheeriojs/cheerio): Used to parse the XML/HTML
-- [Request](https://github.com/request/request): 
-- [Prompt](https://github.com/flatiron/prompt): 
+- [Cheerio](https://github.com/cheeriojs/cheerio): Parse the XML/HTML
+- [Request](https://github.com/request/request): HTTP request client
+- [Prompt](https://github.com/flatiron/prompt): Command line prompt
+- [scrape](https://www.npmjs.com/package/scrape): Scrape web pages
